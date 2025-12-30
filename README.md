@@ -1,1 +1,4 @@
 # Greeks-otpion-calculator
+
+Black-Scholes-Merton Option Pricing Engine
+This project implements an object-oriented Black-Scholes-Merton valuation engine for European options, explicitly accounting for continuous dividend yield (q) to ensure pricing accuracy for equity indices and FX derivatives. Beyond standard valuation, the engine performs rigorous arbitrage validation via Put-Call Parity and computes a full suite of sensitivity parameters—Delta, Gamma, Vega, Theta, and Rho—to quantify market risk exposure. The architecture leverages vectorized NumPy operations and SciPy for statistical modeling, while integrated Matplotlib functionalities enable dynamic visualization of option sensitivities and hedging profiles against spot price movements. This tool demonstrates a practical application of stochastic calculus and derivative pricing theory within a robust, modular Python framework designed for quantitative analysis and structuring.
